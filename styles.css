@@ -1,52 +1,65 @@
 body {
   font-family: sans-serif;
 }
+
 h1 {
   font-size: 32px;
 }
+
 article {
-  /* to center content */
+  /* do this to center content */
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
+
 img {
   max-width: 100%;
 }
+
+/* styles for the image list */
 div.img-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-div.img-list .img-list-text {
+
+div.img-list-text {
   padding: 10px;
 }
+
 div.img-list-item {
   border: 1px solid gray;
   margin: 10px;
   flex: 40%;
 }
+
 div.img-list img {
   object-fit: cover;
 }
+
 div.img-list figure {
   margin: 0;
   width: 100%;
   padding: 0;
   overflow: hidden;
 }
+
 div.img-list figcaption {
   padding-left: 3px;
   color: gray;
 }
+
 div.img-list h3 {
   text-transform: uppercase;
   margin-bottom: 0;
 }
+
 div.img-list p {
   margin-top: 3px;
 }
 
+/* only for smaller screens */
 @media (max-width: 800px) {
   div.img-list-item {
     flex: 100%;
