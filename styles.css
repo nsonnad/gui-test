@@ -34,15 +34,10 @@ div.img-list-item {
   flex: 40%;
 }
 
-div.img-list img {
-  object-fit: cover;
-}
-
 div.img-list figure {
   margin: 0;
   width: 100%;
   padding: 0;
-  overflow: hidden;
 }
 
 div.img-list figcaption {
