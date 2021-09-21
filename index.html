@@ -2,34 +2,78 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
     <title>The world's top mango exporters</title>
-    <style>
-      body {
-        font-family: sans-serif;
-      }
-      article {
-        max-width: 900px;
-        margin: 0 auto;
-      }
-      img {
-        width: 100%;
-      }
-      h1 {
-        font-size: 32px;
-      }
-    </style>
   </head>
   <body>
     <article>
       <h1>The world's top mango exporters</h1>
       <img src="img/mango.jpeg" alt="An image of a person's hands holding mangoes.">
-      <ol>
-        <li>Mexico – $422m</li>
-        <li>Netherlands – $349m</li>
-        <li>Vietnam – $333m</li>
-        <li>Thailand – $316m</li>
-        <li>Peru – $259m</li>
-      </ol>
+
+      <!-- responsive list of image cards with info -->
+      <div class="img-list">
+
+        <!-- list item #1 -->
+        <div class="img-list-item">
+          <div class="img-list-text">
+            <h3>1. Mexico</h3>
+            <p>$422m</p>
+          </div>
+          <figure>
+            <img src="img/mexico.jpg" alt="An image of Mexico City.">
+            <figcaption>Mexico City.</figcaption>
+          </figure>
+        </div>
+
+        <!-- list item #2 -->
+        <div class="img-list-item">
+          <div class="img-list-text">
+            <h3>2. Netherlands</h3>
+            <p>$349m</p>
+          </div>
+          <figure>
+            <img src="img/netherlands.jpg" alt="An image of bikes on a bridge over a canal in Amsterdam.">
+            <figcaption>Amsterdam.</figcaption>
+          </figure>
+        </div>
+
+        <!-- list item #3 -->
+        <div class="img-list-item">
+          <div class="img-list-text">
+            <h3>3. Vietnam</h3>
+            <p>$349m</p>
+          </div>
+          <figure>
+            <img src="img/vietnam.jpg" alt="An image of bikes on a bridge over a canal in Amsterdam.">
+            <figcaption>Mango seller in Vietnam.</figcaption>
+          </figure>
+        </div>
+
+        <!-- list item #4 -->
+        <div class="img-list-item">
+          <div class="img-list-text">
+            <h3>4. Thailand</h3>
+            <p>$349m</p>
+          </div>
+          <figure>
+            <img src="img/thailand.jpg" alt="An image of bikes on a bridge over a canal in Amsterdam.">
+            <figcaption>A floating market in Thailand.</figcaption>
+          </figure>
+        </div>
+
+        <!-- list item #5 -->
+        <div class="img-list-item">
+          <div class="img-list-text">
+            <h3>5. Peru</h3>
+            <p>$349m</p>
+          </div>
+          <figure>
+            <img src="img/peru.jpg" alt="An image of bikes on a bridge over a canal in Amsterdam.">
+            <figcaption>A market in Cusco.</figcaption>
+          </figure>
+        </div>
+
+      </div>
       <p>
       Data:
         <a href="https://wits.worldbank.org/trade/comtrade/en/country/ALL/year/2018/tradeflow/Exports/partner/WLD/product/080450">
